@@ -24,3 +24,10 @@ print(a!=b)   #-> a not equal to b it is not equal print true  but equal print f
 
 print(x:=3) # -> initialization body of print 
 
+a=5 
+b=3
+
+print (a|b) # OR gate 0101 (5) OR 0011 (3) =>  0111 (7)
+print (a^b) # XOR gate 0101 (5) XOR 0011 (3) =>  0110 (6)
+print (a&b) # AND gate  0101 (5) AND 0011 (3) =>  0001 (1)
+
